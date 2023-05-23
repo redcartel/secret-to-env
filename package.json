@@ -1,5 +1,5 @@
 {
-  "name": "secret-to-env",
+  "name": "stdin-secret-to-env",
   "version": "0.1.0",
   "description": "convert an aws plaintext secret dump into a .env file",
   "main": "index.js",
