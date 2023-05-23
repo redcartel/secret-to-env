@@ -7,8 +7,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Carter Adams",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redcartel/secret-to-env"
+  },
   "dependencies": {
     "commander": "^10.0.1"
   }
