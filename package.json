@@ -1,11 +1,9 @@
 {
   "name": "stdin-secret-to-env",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "convert an aws plaintext secret dump into a .env file",
   "main": "index.js",
-  "bin": {
-    "stdin-secret-to-env": "index.js"
-  },
+  "bin": "./index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
