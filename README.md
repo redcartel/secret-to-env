@@ -1,7 +1,9 @@
-usage:
+Intended usage:
 
 ```
-echo '{"SecretString":"VAR=VALUE"}' | npx stdin-secret-to-env > .env
+aws secretsmanager get-secret-value --secret-id local/my-project --profile development | npx stdin-secret-to-env@latest > .env.local
 ```
 
-Intent is to use with the output of aws secretsmanager for env files stored as plaintext.
+Where the local/my-project secret is a multi-line env file stored as plaintext.
+
+However, it could be used to pull a single top-level value from any JSON string
