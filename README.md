@@ -1,7 +1,7 @@
 usage:
 
 ```
-echo '{"SecretString":"VAR=VALUE"}' | npx secret-to-env > .env
+echo '{"SecretString":"VAR=VALUE"}' | npx stdin-secret-to-env > .env
 ```
 
-Intent is to use with the output of aws secretsmanager
+Intent is to use with the output of aws secretsmanager for env files stored as plaintext.
